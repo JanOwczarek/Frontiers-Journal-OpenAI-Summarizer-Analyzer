@@ -11,6 +11,7 @@ Classes:
 Methods:
 -Connect
    1) request (request connection with given link)
+
 -Scrape
    1) paper_type_new (identifies if the html format of the link is of the "newer" type, this has implication on the scraping class used further down the line)
    2) extract_abstract (extracts the abstract)
@@ -22,6 +23,7 @@ Methods:
    9) extract_article_type (extracts the article type of the paper)
    10) section_number (number of h2 "main" sections in the paper)
    11) extract_image_links (extracts the links to images from the paper)
+
 -Clean
    1) just_text (converts from html BeautifulSoup4 style objects into text and carries out additional cleaning using regex)
 
