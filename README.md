@@ -9,6 +9,7 @@ Classes:
 3) Clean (cleans the text by eliminating html language and regex)
 
 Methods:
+
 -Connect
    1) request (request connection with given link)
 
