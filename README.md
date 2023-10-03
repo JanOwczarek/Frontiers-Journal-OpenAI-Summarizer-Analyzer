@@ -3,6 +3,7 @@ This project application is intended to operate as follows. The user pastes a UR
 My aim with this project is to practice scalable web-scraping coding using Python by creating an application that may bring value to people such as researchers or students. My hope is to allow said demographic to parse through a large volume of papers, select specific papers using the application and focus on those papers. Effectively, I want to use the recent advances in natural language processing and machine learning to make paper search more efficient and allow for "current advances in {topic}" data easier to generate. 
 
 Current Architecture
+
 Classes:
 1) Connect (connects to the link using the requests package)
 2) Scrape (mainly using BeautifulSoup4 package this class scrapes text paragraph by paragraph, section by section)
